@@ -1,0 +1,21 @@
+{
+    "name": "moatazelsayed/cms-php",
+    "description": "basic mvc cms written in php oop",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/",
+            "Core\\": "Core/",
+            "Utils\\": "Utils/",
+            "Admin\\": "admin/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Moataz Elsayed",
+            "email": "dr.moatazelsayed@gmail.com"
+        }
+    ],
+    "require": {}
+}

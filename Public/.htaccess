@@ -1,0 +1,10 @@
+Options -Indexes
+RewriteEngine On
+
+# Redirect all requests to the public entry point (index.php)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.+)$ index.php/$1 [L]
+
+
+
